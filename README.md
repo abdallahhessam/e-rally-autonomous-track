@@ -6,14 +6,13 @@
 
 This is the autonomous-driving software that team **E-Rally** from **Helwan University** built for the **autonomous track** of **EVER 2024 (Electric Vehicle Rally)** in Egypt, a competition where universities compete. A simulated electric car drives four tracks (linear, lane change, circular and custom) using a YOLO detector, a single-camera distance estimate, a Kalman-filtered odometry and PID controllers. Everything runs as ROS 1 nodes against a CoppeliaSim scene.
 
-I was part of the autonomous track sub-team. The original team repository is [Ahmed3io/E-Rally-Autonomous-Track-Project-101](https://github.com/Ahmed3io/E-Rally-Autonomous-Track-Project-101), and this repository presents the project from my side with the code, system design, test results and the Milestone 3 report.
+I was part of the autonomous track sub-team. This repository presents the project from my side with the code, system design, test results and the Milestone 3 report.
 
 ![Custom track run](docs/images/14-full-track.png)
 
 ## Achievements
 
 - Represented Helwan University (team **E-Rally**) in the EVER 2024 autonomous track
-- [ADD final ranking / award here]
 - Built the full stack: perception, distance estimation, state estimation and control
 - Trained two YOLO models, one for the basic tracks and one 7-class model for the custom track
 - Completed four tracks in simulation, from a straight road to a custom track with corners, cars, cones and pedestrians
@@ -185,10 +184,10 @@ The custom track has several corners to test steering accuracy, another car to t
 
 | Track | Video |
 |---|---|
-| Linear | [Watch video](docs/videos/linear-track.mp4) |
-| Lane change | [Watch video](docs/videos/lane-change.mp4) |
-| Circular | [Watch video](docs/videos/circular-track.mp4) |
-| Custom | [Watch video](docs/videos/custom-track.mp4) |
+| Linear | [Watch video](docs/Videos/linear-track.mp4) |
+| Lane change | [Watch video](docs/Videos/lane-change.mp4) |
+| Circular | [Watch video](docs/Videos/circular-track.mp4) |
+| Custom | [Watch video](docs/Videos/custom-track.mp4) |
 
 ## Software
 
