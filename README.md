@@ -184,7 +184,7 @@ The custom track has several corners to test steering accuracy, another car to t
 
 | Track | Video |
 |---|---|
-| Linear | [Watch video](docs/Videos/linear-track.mp4) |
+| Linear | [Watch video](docs/Videos/Linear-track.mp4) |
 | Lane change | [Watch video](docs/Videos/lane-change.mp4) |
 | Circular | [Watch video](docs/Videos/circular-track.mp4) |
 | Custom | [Watch video](docs/Videos/custom-track.mp4) |
@@ -239,7 +239,7 @@ e-rally-autonomous-track/
 │               └── cpcDetection_CustomTrack.py
 └── docs/
     ├── videos/
-    │   ├── linear-track.mp4
+    │   ├── Linear-track.mp4
     │   ├── lane-change.mp4
     │   ├── circular-track.mp4
     │   └── custom-track.mp4
